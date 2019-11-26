@@ -131,9 +131,9 @@ if user_option == 'rock' or user_option == 'paper' or user_option == 'sissor':
         print("you win")
         
     if computer_option == 'sissor' and user_option == 'paper':
-        input()
-        print("you lose")    
     
+        print("you lose")    
+        input()
     
 #When computer chooses rock
 
